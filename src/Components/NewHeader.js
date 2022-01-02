@@ -8,7 +8,7 @@ class NewHeader extends Component {
             <div> 
                 <h1> Warren's Lightbulb Challenge</h1>
                 <br></br>
-                <h3> Click the box to operate box</h3>
+                <h3> Click the switch to operate lightbulb</h3>
             </div>
         )
     }

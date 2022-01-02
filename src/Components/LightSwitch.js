@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 //I need to create a class for my light box/switch
 //inside the class I will have some set states, background color, text color
 //I will create a button called "LightBox"
@@ -33,7 +32,7 @@ import React, { Component } from 'react'
             return (
                 <>
                 <button 
-                id = "LightSwitch" onClick = {this.lightOnOff} style = {{color: "black", height: 100, width: 100, margin: 20, background: this.state.colorBox}} > 
+                id = "LightSwitch" onClick = {this.lightOnOff} style = {{color: "black", height: 300, width: 200, margin: 20, background: this.state.colorBox}} > 
                     {this.state.light} 
                 </button>
             
